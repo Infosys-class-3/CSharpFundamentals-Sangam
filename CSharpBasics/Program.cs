@@ -5,15 +5,15 @@
 //1.Numbers
 //1.1 Integral
 
-byte a = 255; //Its range is 0-255  -It is unsigned and takes sigle byte
-short b = 32767 ;//short is signed and can take two byte and we also can use ushort in case of unsigned short.
-int c = 35234566;
-long d = 3456897213489;
+//byte a = 255; //Its range is 0-255  -It is unsigned and takes sigle byte
+//short b = 32767 ;//short is signed and can take two byte and we also can use ushort in case of unsigned short.
+//int c = 35234566;
+//long d = 3456897213489;
 
 
 //1.2 Floating point numbers, Precision
 
-float e  = 45.6f ;//it can represent up to 6-7 digit after decimal and to approve it as decimal we should add suffix f on end.
+/*float e  = 45.6f ;//it can represent up to 6-7 digit after decimal and to approve it as decimal we should add suffix f on end.
 double f = 45.6758944433333;
 decimal g = 46.678954312459m;
 
@@ -26,7 +26,7 @@ Console.WriteLine("I am person. \n I live in earth");
 
 
 //3.Boolean
-bool hh = true;
+//bool hh = true;
 
 //Nullables
 int? population  = null;
@@ -37,4 +37,7 @@ bool? j = null;
 //dynamic language is mostly used in scripting world. 
 
 
+// 2. Declare and intitialize-variables to represent age, name, gender and weight of  a person .Gender of that person should be nullable.*/
 
+
+int age
