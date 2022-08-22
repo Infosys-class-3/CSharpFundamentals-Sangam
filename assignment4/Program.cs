@@ -27,7 +27,7 @@ internal class Program
         emp.isMale = true;
         emp.age = 12;
 
-        Console.WriteLine("Employ name: " + emp.GetName());
+        Console.WriteLine("Employee name: " + emp.GetName());
         Console.WriteLine("ram");
         emp.GetInfo();
     }
