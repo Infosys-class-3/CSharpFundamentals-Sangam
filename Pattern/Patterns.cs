@@ -32,7 +32,7 @@ Console.WriteLine();
     }
 
 
-     void P3()
+    internal void P3()
     {
         for (int i = 1; i <= 5; i++)
         {
@@ -53,7 +53,7 @@ Console.WriteLine();
 
 
 
-    void P4()
+    internal void P4()
     {
         for (int i = 1; i <= 5; i++)
         {
