@@ -23,7 +23,30 @@ class EntryPoint
         // // Call object method
         // sangam.SpeakLanuage();
 
-        Branching b = new();
-        b.LearnBranching();
+        // Branching b = new();
+        // b.LearnBranching();
+
+        //Loop l = new();
+        //l.LearnLoops();
+
+        // string firstName = "Ram";
+        // string middleName = "Hari";
+        // string lastName = "Basnet";
+
+        // string fullName = firstName + " " + middleName + " " + lastName;
+        
+        // // string interpolation
+        // string fullName1 = $"{firstName} {middleName} {lastName}";
+        // Console.WriteLine(fullName);
+        // Console.WriteLine(fullName1);
+
+        // // Verbatim character
+        // string countryDescription = @"Nepal \n is \n sdfsfssff. \nshdkhfkjsfdh \n fkjsfhskjfsh fkjsf";
+        // Console.WriteLine(countryDescription);
+
+        //Pattern 1 = new();
+        //1.LearnPatterns();
     }
 }
+
+
