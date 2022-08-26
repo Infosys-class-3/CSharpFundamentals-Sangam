@@ -3,7 +3,7 @@
     public static void Main()
 
     {
-        strings s = new();
+        Strings s = new();
 
         Console.WriteLine(s.GetDetails("Krishna", "Achyuta"));
 

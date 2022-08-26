@@ -55,4 +55,43 @@ public class Methods
     internal float Add(int x, int y, float z) => (float)x + y + z;
 
 
+    double Multiply(double x, double y) => x * y;
+
+    //7.Tuples
+    internal (float, float) GetSumAndProduct(float a, float b)
+    {
+        var product = a * b;
+        var sum = a + b;
+
+        return (product, sum);
+    }
+    internal (double, double) GetCircleDetails(double radius)
+    {
+        var area = 3.14 * radius * radius;
+        var perimeter = 2 * 3.14 * radius * radius;
+
+        return (area, perimeter);
+    }
+
+    internal (short, short) GetMaxAndMin(short[] numbers)//[4,2,6,8,10]
+    {
+        short min = short.MaxValue, max = short.MinValue;
+        //find  minimum
+        foreach (var num in numbers)
+        {
+            if (min > num)
+            {
+                min = num;
+            }
+            //find  maximum
+            if (min < num)
+            {
+                min = num;
+            }
+        }
+
+        return (min, max);
+    }
+
+
 }
